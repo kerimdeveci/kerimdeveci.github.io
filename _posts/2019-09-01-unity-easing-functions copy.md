@@ -4,9 +4,9 @@ last_modified_at: 2016-03-09T16:20:02-05:00
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - unity
+  - math
+  - animations
 ---
 
 
@@ -29,3 +29,8 @@ If you don’t know what mathematical functions are here’s a really quick expl
 
 In our code we can have a method named “f”:
 
+```csharp
+float f  ( float x) {
+
+}
+```
