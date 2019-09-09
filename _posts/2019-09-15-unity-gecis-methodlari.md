@@ -4,30 +4,32 @@ last_modified_at: 2016-03-09T16:20:02-05:00
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - Unity
+  - turkce
+  - matematik
 ---
 
+Gecis metodlari genellikle bir komponentin icindeki degeri belli bir zaman araliginda anime ederek desgistirmede kullanilir.
+Bu metodlarla objeleri hareket ettirebilir, renklerini degistirebilir, scla degerini ve rotasyon degerlerini hafifleterek gecislerini saglayabilirsiniz.
 
-Easing (or interpolation) equations are mostly used in animations to change a component value in a defined period of time.
-You can move objects, change their colors, scales, rotations and anything you want simply using easing equations.
-
-This is an example changing objects movement:
+Bu grafikte basitce butun denklemlerin karsiligini gorebilirsiniz.
 
 ![animation-referance](https://kerimdeveci.github.io/assets/images/Animation-References-easing-equations.gif)
 
-This process is often named “Tweening” and today I’d like to discover what’s under the hood and write about how to create your personal “Tween” class all by yourself.
+bu islem genllikle “Tweening” adi verilir. bu yazimizda isin arka planininin nasil calistigini gorecegiz. boylelikle kendimize ait bir tween kutuphanesi olusturabiliriz.
 
-## HOW IT WORKS
 
-Easing functions are useful to change a value from A to B in X time, based on a mathematical function’s graph. We’ll tweak the “percentage” parameter in the Lerp method, looking at mathematical functions that are defined in the range [0,1] (in math the square brackets mean “included” so the functions have to exist in 0 and 1 too). We choose the range [0,1] because in our code we’ll always pass a percentage as a parameter, which represents the current time of our animation. For example if 5 of 10 seconds passed we’re going to pass “5/10“, so “0.5“. It probably seems hard at the beginning if you’re not familiar with math and so on, but I’ll talk about it step by step.
+## NASIL CALISIR
+
+Bir A Noktasindan B noktasina X sure icinde gecisimizi saglayan matematik fonksiyonlaridir.
+
+Lerp metodunun icindeki yuzdelik kismini degistirecegiz ve tam bu noktaya tween ozelligini getiren matematik fonksiyonlarini yazacagiz. Bu fonksiyonlar 0 ve 1 arasindaki tanimlanan denklemlere goz atacagiz. Cunku kodda surekli 0 ve 1 arasindaki degerleri yuzdelik dilim parametresi olarak atayacagiz. bildigimiz gibi Matematik'de [0,1] 0 ve 1 dahil olan degerler kumesini ifade eder. 0 ve 1 degerleri fonksiyonumuzda ikiside dahil olmali . Parametremize ornek olarak ornegin 10 saniyeden 5 saniyesi gectiyse parametremize 5/10 yani 0,5f degerini yazacagiz.
+
 
 ## MATHEMATICAL FUNCTIONS
 
-If you don’t know what mathematical functions are here’s a really quick explanation, parallel with coding functions/methods. If you already know about them and you can jump on the Lerp section.
 
-In our code we can have a method named “f”:
+f isimli metodumuz girilen x parametresinin 4 fazlasini dondurur. matematikde bunun karsiligi f(x) = x+4 dir.
 
 ```csharp
 float f  ( float x) {
@@ -35,34 +37,24 @@ float f  ( float x) {
 }
 ```
 
-In math , we have f(x) = x+4
+yani f(5) = 5+4 = 9, veya f(0) = 0+4 = 4.
 
-This means that f(6) = 6+4 = 10, or f(0) = 0+4 = 4.
-The same value is returned by our method written above, if we give the same parameter.
+"f" fonksiyon ismidir. g veya h da olabilir. tipki metod isimlerimiz gibi yukaridaki kod orneginde fonksiyon ismimiz yine f kullandik. x ise degisken, kodda karsiligi aynen degiskenler/parametreler.
 
-“f” is the name of the function, could be “g” “h” or whatever you want. Just like our method names.
-X is a placeholder, and it’s replaced by a value that you give. Just like parameters/variables in our codes.
-After the “=” we have an equation, that returns a value based on the “x” that we give, just like inside our method.
+zaten metod dedigimiz matematikdeki fonksiyonlardan pekde bir farki olmayan sey. peki fonksiyon grafikleri? bunun icin Lise 3 bilgilerimizi tazelemeye ve ozel tanimli fonksiyonlar konusuna davet ediyorum sizi.
 
-Also, f(x) = x+4 or y=x+4 are the same thing.
-
-A function defines how a set of input values correspond to a set of output values. One input can return only one output.
-
-### FUNCTION GRAPH
+### FONKSIYON GRAFIKLERI
 
 To display this input-output relation we can use a (2D) cartesian coordinate system. At each X (input) corresponds a Y (output).
 
-In our case we’re always using the example f(x) = x+4.
-We can calculate a few points, such as f(-4) = 0, f(-2) = 2, f(0) = 4, f(2) = 6, and later we can connect them.
-On the “X” axis we go on the value “-4” and draw a point (y=0). Then we go on the X value “-2”, go upper of 2 units (this way we go on the Y value “2” ) and we draw another point. After drawing all these points we can see that this is is a linear function and its graph is:
+Asagida y=x fonksiyonun grafigini goruyorsunuz. bu dogrusal bir fonksiyon. 
 
 ![animation-referance](https://kerimdeveci.github.io/assets/images/linear-graph-percentage.png)
 
-Of course, a computer draws all the points perfectly thanks to an algorithm, we can’t draw non-linear functions using this method (we’ll need derivatives, we’ll have to study the domain, the symmetries, the sign and so on), but that’s still useful to understand how drawing a function works without going deeper.
+Dogrusal (lineer) olmayan fonksiyon grafiklerini turev ile ciziyorduk hatirlarsaniz.
 
-You can use any website that draws the graph of a function to follow up here, without having to calculate each point and more complex things. I’m using this **[website](https://rechneronline.de/function-graphs/)**. here.
+burada grafigi cizmek icin Geo Gebra Programini kullandim. Bu programin online versiyonu var . baska bir alternatif isterseniz ise **[bu siteye](https://rechneronline.de/function-graphs/)** basvurabilirsiniz.
 
-Now that we know what mathematical functions are and how to draw and represent them, we can go forward with the “Lerp method”.
 
 ## LERP
 
