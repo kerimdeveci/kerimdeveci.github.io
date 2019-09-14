@@ -64,7 +64,7 @@ Bu deger herzaman 0 ve 1 arasinda olmak zorunda oldugundan tanimlayacagimiz fonk
 
 ## MATEMATIKSEL FONKSIOYONLAR
 
-f isimli metodumuz girilen x parametresinin 4 fazlasini dondurur. matematikde bunun karsiligi f(x) = x+4 dir.
+f isimli metodumuz girilen x parametresinin 4 fazlasini dondurur. Matematik deki bunun karsiligi f(x) = x+4 dir.
 
 ```csharp
 float f  ( float x) {
@@ -76,7 +76,7 @@ yani f(5) = 5+4 = 9, veya f(0) = 0+4 = 4.
 
 "f" fonksiyon ismidir. g veya h da olabilir. tipki metod isimlerimiz gibi yukaridaki kod orneginde fonksiyon ismimiz yine f kullandik. x ise degisken, kodda karsiligi aynen degiskenler/parametreler.
 
-zaten metod dedigimiz matematikdeki fonksiyonlardan pekde bir farki olmayan sey. peki fonksiyon grafikleri? bunun icin Lise 3 bilgilerimizi tazelemeye ve ozel tanimli fonksiyonlar konusuna davet ediyorum sizi.
+zaten metod dedigimiz matematik derslerinde gordugumuz fonksiyonlardan hicbir farki yok. Peki fonksiyon grafikleri? bunun icin Lise 3 bilgilerimizi tazelemeye ve ozel tanimli fonksiyonlar konusuna davet ediyorum sizi.
 
 ### FONKSIYON GRAFIKLERI
 
