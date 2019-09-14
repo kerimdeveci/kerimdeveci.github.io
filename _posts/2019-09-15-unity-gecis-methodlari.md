@@ -92,12 +92,18 @@ Burada animasyonun nasil olabilecegini su sekilde gozlemleyebilirsiniz. Ben GeoG
 
 [Easing-Functions](https://www.geogebra.org/m/nve6x5ze)
 
-![ease-in](https://kerimdeveci.github.io/assets/images/ease-in^2.gif)
-![ease-in](https://kerimdeveci.github.io/assets/images/ease-in^3.gif)
-![ease-in](https://kerimdeveci.github.io/assets/images/ease-in^4.gif)
+![ease-in](https://kerimdeveci.github.io/assets/images/ease-inx1.gif)
+___
+![ease-in](https://kerimdeveci.github.io/assets/images/ease-inx2.gif)
+___
+![ease-in](https://kerimdeveci.github.io/assets/images/ease-inx3.gif)
+___
 ![ease-out](https://kerimdeveci.github.io/assets/images/ease-out.gif)
+___
 ![ease-out](https://kerimdeveci.github.io/assets/images/ease-out2.gif)
+___
 ![ease-out](https://kerimdeveci.github.io/assets/images/ease-out3.gif)
+___
 
 ## LERP IMPLEMENTATION
 
