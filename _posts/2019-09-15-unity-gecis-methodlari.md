@@ -88,7 +88,16 @@ Dogrusal (lineer) olmayan fonksiyon grafiklerini turev ile ciziyorduk hatirlarsa
 
 burada grafigi cizmek icin Geo Gebra Programini kullandim. Bu programin online versiyonu var . baska bir alternatif isterseniz ise **[bu siteye](https://rechneronline.de/function-graphs/)** basvurabilirsiniz.
 
+Burada animasyonun nasil olabilecegini su sekilde gozlemleyebilirsiniz. Ben GeoGebra Kullandim. kullandigim dosyanin online haline buradan erisip kendiniz f fonksoyonuna istediginiz degeri vererek animasyon fonksiyonu olusturabilirsiniz.
 
+[Easing-Functions](https://www.geogebra.org/m/nve6x5ze)
+
+![ease-in](https://kerimdeveci.github.io/assets/images/ease-in^2.gif)
+![ease-in](https://kerimdeveci.github.io/assets/images/ease-in^3.gif)
+![ease-in](https://kerimdeveci.github.io/assets/images/ease-in^4.gif)
+![ease-out](https://kerimdeveci.github.io/assets/images/ease-out.gif)
+![ease-out](https://kerimdeveci.github.io/assets/images/ease-out2.gif)
+![ease-out](https://kerimdeveci.github.io/assets/images/ease-out3.gif)
 
 ## LERP IMPLEMENTATION
 
@@ -176,3 +185,7 @@ public static IEnumerator ChangeObjectYPos(Transform transform, float y_target, 
     }
 }
  ```
+
+ ## ORNEKLER
+
+
