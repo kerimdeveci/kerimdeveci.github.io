@@ -33,7 +33,6 @@ ___
 
 ## Completed Projects
 
-Completed Projects
 
 Quick Math Brain Challenge
 
@@ -41,7 +40,8 @@ Quick Math Brain Challenge
 
 Listen Turkish Quran Offline
 
-![icon](assets/images/Kuran-App-icon.png)<https://apps.apple.com/us/app/listen-quran-turkish-ofline/id1450080130>
+
+<https://apps.apple.com/us/app/listen-quran-turkish-ofline/id1450080130>
 
 BallRolling On The Wall
 

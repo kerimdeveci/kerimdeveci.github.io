@@ -193,5 +193,3 @@ public static IEnumerator ChangeObjectYPos(Transform transform, float y_target, 
  ```
 
  ## ORNEKLER
-
-
