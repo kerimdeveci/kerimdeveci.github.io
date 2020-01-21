@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Swift Programming Tips and Notes
+title: iOS Programming Tips and Notes
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   iOS Development notes of newbie IOS Developer,
@@ -68,10 +68,10 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/kerimswift"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/kerimdeveci"
 
 
 defaults:
@@ -96,7 +96,7 @@ defaults:
 
 category_archive:
   type: liquid
-  path: /categories/
+  path: /
 tag_archive:
   type: liquid
   path: /tags/
