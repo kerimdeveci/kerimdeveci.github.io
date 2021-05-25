@@ -7,7 +7,7 @@ sitemap: false
 # Portfolio
 This is my portfolio for my whole iOS Engineer experiences
 
-## <img src="wallpix-icon.png" width="50" style="border-radius:30%"> Wallpix
+## <img src="/assets/portfolio_images/wallpix-icon.png" width="50" style="border-radius:30%"> Wallpix
   
 Wallpix is a wallpaper, ringtone, color screen, live wallpaper, widgets app.
 * _**What I've learnt**_
@@ -32,7 +32,7 @@ Wallpix is a wallpaper, ringtone, color screen, live wallpaper, widgets app.
   <img src="/assets/portfolio_images/wallpix(6).png" width="100">
   <img src="/assets/portfolio_images/wallpix(7).png" width="100">
 
-## <img src="icon-cartoon.png" width="50" style="border-radius:30%"> Cartoon TV
+## <img src="/assets/portfolio_images/icon-cartoon.png" width="50" style="border-radius:30%"> Cartoon TV
 
 Cartoon TV is a live streaming application that uses HLS(HTTP Live Streaming). Includes cartoon content for kids.
 
@@ -49,7 +49,7 @@ Cartoon TV is a live streaming application that uses HLS(HTTP Live Streaming). I
   <img src="/assets/portfolio_images/cartoon3.png" width="100">
   <img src="/assets/portfolio_images/cartoon4.png" width="100">
 
-## <img src="car-tuning-icon.png" width="50" style="border-radius:30%"> Car Tuning Studio
+## <img src="/assets/portfolio_images/car-tuning-icon.png" width="50" style="border-radius:30%"> Car Tuning Studio
 
 Car Tuning Studio is an image overlap application, that user can modify original car parts with real car image brands
 
@@ -66,7 +66,7 @@ Car Tuning Studio is an image overlap application, that user can modify original
   <img src="/assets/portfolio_images/car5.png" width="100">
 
 
-## <img src="hydra-icon.png" width="50" style="border-radius:30%"> Hydra: Water Reminder
+## <img src="/assets/portfolio_images/hydra-icon.png" width="50" style="border-radius:30%"> Hydra: Water Reminder
 
 Hydra is a side project, it is a water reminder application, that user can customize 
 
@@ -84,7 +84,7 @@ Hydra is a side project, it is a water reminder application, that user can custo
   <img src="/assets/portfolio_images/water3.png" width="100">
   <img src="/assets/portfolio_images/water4.png" width="100">
 
-## <img src="calmly-icon.png" width="50" style="border-radius:30%"> Calmly: Baby Sleep Sounds
+## <img src="/assets/portfolio_images/calmly-icon.png" width="50" style="border-radius:30%"> Calmly: Baby Sleep Sounds
 
 Calmly is a relaxing sound application
 
@@ -103,7 +103,7 @@ Calmly is a relaxing sound application
   <img src="/assets/portfolio_images/calmly6.png" width="100">
 
 
-## <img src="icon-enlive.png" width="50" style="border-radius:30%"> Enlive
+## <img src="/assets/portfolio_images/icon-enlive.png" width="50" style="border-radius:30%"> Enlive
   Enlive is a photo to live wallpaper converter application.
 
 * _**What I've learnt**_
