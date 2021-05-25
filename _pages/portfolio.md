@@ -44,10 +44,10 @@ Cartoon TV is a live streaming application that uses HLS(HTTP Live Streaming). I
   * [Facebook SDK](https://developers.facebook.com/docs/ios/)
   * HLS(HTTP Live Streaming)
 
-  <img src="cartoon1.png" width="100">
-  <img src="cartoon2.png" width="100">
-  <img src="cartoon3.png" width="100">
-  <img src="cartoon4.png" width="100">
+  <img src="/assets/portfolio_images/cartoon1.png" width="100">
+  <img src="/assets/portfolio_images/cartoon2.png" width="100">
+  <img src="/assets/portfolio_images/cartoon3.png" width="100">
+  <img src="/assets/portfolio_images/cartoon4.png" width="100">
 
 ## <img src="car-tuning-icon.png" width="50" style="border-radius:30%"> Car Tuning Studio
 
@@ -59,11 +59,11 @@ Car Tuning Studio is an image overlap application, that user can modify original
   * Realtime Messaging using [Firebase Notifications](https://firebase.google.com/docs/notifications/)
   * WidgetKit
   
-  <img src="car1.png" width="100">
-  <img src="car2.png" width="100">
-  <img src="car3.png" width="100">
-  <img src="car4.png" width="100">
-  <img src="car5.png" width="100">
+  <img src="/assets/portfolio_images/car1.png" width="100">
+  <img src="/assets/portfolio_images/car2.png" width="100">
+  <img src="/assets/portfolio_images/car3.png" width="100">
+  <img src="/assets/portfolio_images/car4.png" width="100">
+  <img src="/assets/portfolio_images/car5.png" width="100">
 
 
 ## <img src="hydra-icon.png" width="50" style="border-radius:30%"> Hydra: Water Reminder
@@ -79,10 +79,10 @@ Hydra is a side project, it is a water reminder application, that user can custo
   * SiriKit
 
 
-  <img src="water1.png" width="100">
-  <img src="water2.png" width="100">
-  <img src="water3.png" width="100">
-  <img src="water4.png" width="100">
+  <img src="/assets/portfolio_images/water1.png" width="100">
+  <img src="/assets/portfolio_images/water2.png" width="100">
+  <img src="/assets/portfolio_images/water3.png" width="100">
+  <img src="/assets/portfolio_images/water4.png" width="100">
 
 ## <img src="calmly-icon.png" width="50" style="border-radius:30%"> Calmly: Baby Sleep Sounds
 
@@ -95,12 +95,12 @@ Calmly is a relaxing sound application
   * Created a sound mixer using AVFoundation
   * Worked with Date and Time and Timers.
 
-  <img src="calmly1.png" width="100">
-  <img src="calmly2.png" width="100">
-  <img src="calmly3.png" width="100">
-  <img src="calmly4.png" width="100">
-  <img src="calmly5.png" width="100">
-  <img src="calmly6.png" width="100">
+  <img src="/assets/portfolio_images/calmly1.png" width="100">
+  <img src="/assets/portfolio_images/calmly2.png" width="100">
+  <img src="/assets/portfolio_images/calmly3.png" width="100">
+  <img src="/assets/portfolio_images/calmly4.png" width="100">
+  <img src="/assets/portfolio_images/calmly5.png" width="100">
+  <img src="/assets/portfolio_images/calmly6.png" width="100">
 
 
 ## <img src="icon-enlive.png" width="50" style="border-radius:30%"> Enlive
@@ -113,11 +113,11 @@ Calmly is a relaxing sound application
   * AppClip
   
 
-  <img src="enlive1.png" width="100">
-  <img src="enlive2.png" width="100">
-  <img src="enlive3.png" width="100">
-  <img src="enlive4.png" width="100">
-  <img src="enlive5.png" width="100">
+  <img src="/assets/portfolio_images/enlive1.png" width="100">
+  <img src="/assets/portfolio_images/enlive2.png" width="100">
+  <img src="/assets/portfolio_images/enlive3.png" width="100">
+  <img src="/assets/portfolio_images/enlive4.png" width="100">
+  <img src="/assets/portfolio_images/enlive5.png" width="100">
 
 
 ## Module: Permatic
